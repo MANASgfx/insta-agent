@@ -1,0 +1,28 @@
+{
+  "name": "digify-instagram-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Digify Instagram Studio: the 13-skill Instagram Agent pack as a multi-brand web app for the Digify team.",
+  "main": "server/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build-frontend.js",
+    "start": "node server/index.js",
+    "dev": "node scripts/build-frontend.js && node --env-file-if-exists=.env server/index.js",
+    "create-user": "node --env-file-if-exists=.env scripts/create-user.js",
+    "seed": "node --env-file-if-exists=.env scripts/seed.js",
+    "test": "npm run test:parity && npm run test:api",
+    "test:parity": "node tests/parity/compare.js tests/parity skills",
+    "test:api": "node --test tests/api/api.test.js",
+    "test:browser": "npm run build && python3 tests/browser/run.py public/index.html"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.22.3",
+    "jszip": "^3.10.2",
+    "mysql2": "^3.24.6"
+  }
+}
