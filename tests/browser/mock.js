@@ -1,0 +1,40 @@
+(() => {
+  const R = {
+    hooks: {hooks:[{formula_id:1,spoken:"We lost {{₹ amount}} on one dining table because the wood changed after we cut it.",on_screen:"ONE CLAUSE. {{₹ AMOUNT}}",why:"Cost confession"},{formula_id:3,spoken:"Nobody tells you the client can change the wood after you cut it.",on_screen:"NOBODY TELLS YOU THIS",why:"Insider"},{formula_id:2,spoken:"Don't start cutting until the wood is locked in writing.",on_screen:"LOCK THE WOOD FIRST",why:"Command"}],question:null,missing:["{{₹ amount}}: what the recut cost"]},
+    script: {script_lines:["We lost {{₹ amount}} on one dining table.","The client approved the drawing in teak.","Two weeks later, after we cut it, they wanted walnut.","Every board was already sized.","So we ate the cost and rebuilt it.","Now every quote has one line: wood locked at advance.","That line has saved us more than {{₹ amount}}. Comment TEAK for the wording."],on_screen:[{at:"0:00",text:"{{₹ AMOUNT}} LOST"},{at:"0:09",text:"WOOD LOCKED AT ADVANCE"}],shots:["Face to camera, workshop","Drawing on table","Offcuts pile","Saw","Rebuilt table","Quote PDF","Face, point down"],ask:"Comment TEAK",loop_word:"amount",missing:["{{₹ amount}}"]},
+    caption: {job:"A",job_reason:"The reel carries the hook.",caption:"Comment TEAK and I'll send you the exact line we put in every quote.\n\nIt's the clause that stopped clients changing the wood after we'd cut it. Solid wood dining tables are made to order, so a late change means starting again.\n\nIf you're getting custom furniture made in Mumbai, ask your maker for this before you pay the advance.\n\n#solidwoodfurniture #custommadefurniture #mumbaihomes",alt_text:"A teak dining table in a workshop.",first_comment:"",missing:[]},
+    carousel: {slides:[{role:"COVER",headline:"Check these before you buy",body:"Four things a solid wood bed should pass."},{role:"STAKE",headline:"A bed lasts 20 years. Or two.",body:"The difference is in four places you can check in the shop."},{role:"BODY",headline:"Look at the joints",body:"Mortise and tenon, not screws and brackets."},{role:"BODY",headline:"Read the grain",body:"End grain should match the species you were quoted."},{role:"RECAP",headline:"The four checks",body:"Joints\nGrain\nFinish\nMoisture"},{role:"CTA",headline:"Save this for the shop",body:"Comment TEAK and we'll send the full checklist."}],caption:"Four checks before you buy a solid wood bed. Save it for the shop.\n\n#solidwood",alt_text:"Cover slide reading Check these before you buy",missing:[]},
+    story: {frames:[{visual:"selfie, workshop",on_screen:"Third wood change this year.",said:"",sticker:null},{visual:"hands on walnut",on_screen:"Same reason every time",said:"",sticker:null},{visual:"talking",on_screen:"Lock the wood at advance",said:"Lock it in writing.",sticker:null},{visual:"poll",on_screen:"Has a maker changed your wood?",said:"",sticker:{type:"poll",prompt:"Has this happened to you?",options:["Yes","Not yet"]}},{visual:"text on photo",on_screen:"Reply and I'll send the clause.",said:"",sticker:null}],after:"Reply to every Yes.",missing:[]},
+    repurpose: {found:{claims:5,numbers:4,stories:2,mechanisms:3,mistakes:1,lines:6},thin:false,thin_note:"",extracts:[{kind:"claim",text:"MDF isn't cheaper over ten years."}],week:[{day:"TUE",format:"REEL",formula_id:2,angle:"Stop buying MDF for a dining table",note:"use the 12:40 clip"},{day:"THU",format:"CAROUSEL",formula_id:11,angle:"The 4 checks for solid wood",note:""}]},
+    comment: {items:[{account:"@designstudio",post_summary:"Walnut kitchen reveal",options:[{type_no:6,type_name:"Receipt",text:"We did a walnut island in Bandra last year — oil finish, not lacquer. Six months in, the water rings buffed out in ten minutes."},{type_no:5,type_name:"Ask the real question",text:"How are you handling the end grain near the sink?"}],pick:0,why:"It has a number and a place."}]},
+    reply: {groups:[{bucket:"QUESTION",items:[{handle:"@riya",comment:"does teak crack in the monsoon?",reply:"Riya, solid teak moves, it doesn't crack if it's seasoned and sealed on all sides.",reel_hook:"Does teak crack in the monsoon? Here's the honest answer."}]},{bucket:"SUPPORT",items:[{handle:"@a",comment:"🔥🔥",reply:"Thank you!",reel_hook:""}]},{bucket:"NOISE",items:[{handle:"@spam",comment:"DM for promo",reply:"",reel_hook:""}]}],keyword_note:""},
+    dm: {warning:"",message:"Riya, here it is: the wood clause we put in every quote. Paste it into your contract before the advance. What are you having made?",followups:[{day:4,text:"One more thing: ask for the moisture reading too."},{day:10,text:"I'll stop here. Hope the table comes out well."}],missing:[]},
+    plan: {week_of:"Oct 19",days:[{day:"MON",time:"",format:"ENGAGE",type:"",formula_id:null,angle:"Engage only"},{day:"TUE",time:"7:30pm",format:"REEL",type:"PROOF",formula_id:1,angle:"The recut walnut table"},{day:"THU",time:"7:00pm",format:"CAROUSEL",type:"TEACH",formula_id:11,angle:"4 checks before buying a bed"},{day:"FRI",time:"7:30pm",format:"REEL",type:"OPINION",formula_id:2,angle:"Stop buying MDF dining tables"},{day:"SUN",time:"6:00pm",format:"REEL",type:"STORY",formula_id:21,angle:"The client who measured the doorway"}],stories:"Every day, 3 to 5 frames.",engage:{reach:["@a","@b"],peers:["@c"],buyers:["@d"]},note:"Hooks matter more than times."},
+    profile: {scores:[{id:"name_field",score:3,note:"Name only"},{id:"bio_first_line",score:5,note:"Adjectives"}],rewrites:[{field:"name field",options:["Wootique | Solid wood furniture","Wootique | Custom teak furniture Mumbai"],why:"Searchable words"},{field:"bio",options:["Custom solid wood furniture, made in Mumbai. Family woodworkers since 1964."],why:"Who + proof"}],after_estimate:68,after_note:"Needs pinned posts."},
+    viral: {over_indexing:[{formula_id:3,count:2,note:"Insider framing"}],structure:["Top hooks are under 12 words"],unclassified:"One opens on a question",confidence:"Low: 5 reels.",your_versions:[{formula_id:3,hook:"Nobody tells you teak needs sealing on all six sides.",on_screen:"ALL SIX SIDES"}]},
+    audit: {findings:[{claim:"Hold at 3s separates top from bottom",evidence:"71% vs 33%",confidence:"medium"}],diagnosis:"hook",stop:"Product-only listicles",do_more:"Stories with a cost",sample_note:"Six posts is thin."},
+    human: {text:"Good furniture lasts. This table is solid teak, hand finished, and built for twenty years of dinners."},
+    brandfill: {onCamera:"calm",delivery:"to-camera",language:"English, some Hinglish",wordsUse:"solid, honest, made",wordsNever:"luxurious, elevate",swear:"no",emoji:"one, rarely",positions:"MDF is a false saving",notes:""},
+  };
+  const pick = p => {
+    const m = /<skill name="\/(ig-[a-z]+)">/.exec(p); const sk = m && m[1];
+    if (p.includes("infer its voice profile")) return R.brandfill;
+    if (sk === "ig-reel") return p.includes("Step 1 of the loop") ? R.hooks : R.script;
+    return { "ig-caption": R.caption, "ig-carousel": R.carousel, "ig-story": R.story, "ig-repurpose": R.repurpose, "ig-comment": R.comment, "ig-reply": R.reply, "ig-dm": R.dm, "ig-plan": R.plan, "ig-profile": R.profile, "ig-viral": R.viral, "ig-audit": R.audit, "ig-human": R.human }[sk];
+  };
+  // Stand in for Claude only: /api/ask answers from the canned responses above as an SSE stream, like the server does.
+  // Every other /api call goes to the real server (login, brands, history, docs).
+  window.__prompts = []; window.__images = 0;
+  const realFetch = window.fetch.bind(window);
+  window.fetch = async (url, opts) => {
+    if (String(url).endsWith("/api/ask")) {
+      const body = JSON.parse(opts.body);
+      window.__prompts.push(body.prompt); window.__images += (body.images || []).length;
+      const out = JSON.parse(JSON.stringify(pick(body.prompt)));
+      const sse = `event: progress\ndata: {"chars":0}\n\nevent: progress\ndata: {"chars":512}\n\nevent: done\ndata: ${JSON.stringify({ data: out, usage: {} })}\n\n`;
+      await new Promise(r => setTimeout(r, 30));
+      return new Response(new Blob([sse]).stream(), { status: 200, headers: { "content-type": "text/event-stream" } });
+    }
+    return realFetch(url, opts);
+  };
+})();
