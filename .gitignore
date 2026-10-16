@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+public/
+data/
+*.sqlite
+*.sqlite-*
+*.log
+.DS_Store
+tests/browser/*.png
+tests/browser/*.zip
