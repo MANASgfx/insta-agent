@@ -1,0 +1,67 @@
+{
+  "characters": 304,
+  "limit": 2200,
+  "truncate_at": 125,
+  "visible": "I lost $18,000 because of one missing clause in a contract, and the worst part is that I had read the thing twice before I si",
+  "truncated": true,
+  "first_line_chars": 133,
+  "hashtags": [
+    "#freelance",
+    "#contracts",
+    "#agencyowner"
+  ],
+  "mentions": [],
+  "links": [],
+  "emoji": 0,
+  "asks": [
+    "comment a keyword"
+  ],
+  "checks": [
+    {
+      "check": "LENGTH",
+      "status": "PASS",
+      "detail": "304 / 2200 characters"
+    },
+    {
+      "check": "FIRST LINE",
+      "status": "WARN",
+      "detail": "133 characters, so it gets cut at 125 mid-thought. Fine if the cut is a cliffhanger, bad if it is a subordinate clause"
+    },
+    {
+      "check": "HOOK IS CONCRETE",
+      "status": "PASS",
+      "detail": "2 number(s) or name(s) in the visible window"
+    },
+    {
+      "check": "HASHTAGS",
+      "status": "PASS",
+      "detail": "3 tag(s): #freelance #contracts #agencyowner"
+    },
+    {
+      "check": "TAG PLACEMENT",
+      "status": "PASS",
+      "detail": "tags are below the fold"
+    },
+    {
+      "check": "LINKS",
+      "status": "PASS",
+      "detail": "no dead links in the body"
+    },
+    {
+      "check": "ONE ASK",
+      "status": "PASS",
+      "detail": "one call to action: comment a keyword"
+    },
+    {
+      "check": "EMOJI",
+      "status": "PASS",
+      "detail": "0 emoji, 0.0 per 100 characters"
+    },
+    {
+      "check": "SEARCH TERMS",
+      "status": "WARN",
+      "detail": "1/2 present, 0 in the visible window. Missing: freelance pricing"
+    }
+  ],
+  "verdict": "REVIEW"
+}

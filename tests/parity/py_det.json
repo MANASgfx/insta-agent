@@ -1,0 +1,27 @@
+{
+  "source": "draft.txt",
+  "checks": {
+    "BURSTINESS": {
+      "score": 53.8,
+      "detail": "variation 0.48 across 12 sentences (want 0.55+)"
+    },
+    "SPECIFICITY": {
+      "score": 42.9,
+      "detail": "3 concrete markers, 2.9 per 100 words (want 4+)"
+    },
+    "SLOP DENSITY": {
+      "score": 0.0,
+      "detail": "12 stock terms, 11.4 per 100 words (a testament to, crucial, delve, delve into, ...)"
+    },
+    "FINGERPRINT": {
+      "score": 5.9,
+      "detail": "0 invisible, 1 em dash, 4 curly quote, 1 ellipsis, 0 hard space"
+    },
+    "VOICE": {
+      "score": 22.2,
+      "detail": "1.9 contractions, 1.0 personal pronouns per 100 words, 12 structural tell(s) [not-just, triad, rocket, hashtag-wall]"
+    }
+  },
+  "human_score": 15.0,
+  "verdict": "FLAGGED"
+}

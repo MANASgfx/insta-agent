@@ -1,0 +1,300 @@
+[
+  {
+    "hook": "Nobody tells you that your first 30 reels are supposed to flop",
+    "checks": {
+      "LENGTH": {
+        "score": 88.0,
+        "detail": "12 words, 62 chars, ~4.4s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 75,
+        "detail": "1 concrete marker(s): 30"
+      },
+      "STAKES": {
+        "score": 100.0,
+        "detail": "2 tension marker(s): first, nobody"
+      },
+      "FRONTLOAD": {
+        "score": 100.0,
+        "detail": "payload at word 1"
+      },
+      "ADDRESS": {
+        "score": 100.0,
+        "detail": "speaks to the viewer"
+      }
+    },
+    "weakest": "SPECIFICITY",
+    "flags": [],
+    "score": 85.6,
+    "verdict": "STRONG"
+  },
+  {
+    "hook": "I lost $18,000 because of one missing contract.",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "8 words, 47 chars, ~2.9s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 75,
+        "detail": "1 concrete marker(s): $18,000"
+      },
+      "STAKES": {
+        "score": 100.0,
+        "detail": "2 tension marker(s): lost, a price"
+      },
+      "FRONTLOAD": {
+        "score": 100.0,
+        "detail": "payload at word 2"
+      },
+      "ADDRESS": {
+        "score": 70.0,
+        "detail": "first person, no viewer named"
+      }
+    },
+    "weakest": "ADDRESS",
+    "flags": [],
+    "score": 81.4,
+    "verdict": "STRONG"
+  },
+  {
+    "hook": "Stop scrolling if you want to grow on Instagram in 2026 🔥",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "11 words, 57 chars, ~4.0s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 100.0,
+        "detail": "2 concrete marker(s): 2026, Instagram"
+      },
+      "STAKES": {
+        "score": 70.0,
+        "detail": "1 tension marker(s): stop"
+      },
+      "FRONTLOAD": {
+        "score": 100.0,
+        "detail": "payload at word 1"
+      },
+      "ADDRESS": {
+        "score": 100.0,
+        "detail": "speaks to the viewer"
+      }
+    },
+    "weakest": "STAKES",
+    "flags": [
+      "Opens with \"stop scrolling\". Asking for attention proves you have not earned it.",
+      "Emoji in the hook. On-screen text at hook size has room for words or for an emoji, not both."
+    ],
+    "score": 54.4,
+    "verdict": "OK"
+  },
+  {
+    "hook": "Hey guys, today I wanted to talk about content strategy",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "10 words, 55 chars, ~3.6s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 15.0,
+        "detail": "0 concrete marker(s) - no number, no name, nothing checkable"
+      },
+      "STAKES": {
+        "score": 20.0,
+        "detail": "0 tension marker(s) - nothing is at stake in this line"
+      },
+      "FRONTLOAD": {
+        "score": 0.0,
+        "detail": "no payload word anywhere in the line; weak opener \"hey\""
+      },
+      "ADDRESS": {
+        "score": 70.0,
+        "detail": "first person, no viewer named"
+      }
+    },
+    "weakest": "FRONTLOAD",
+    "flags": [
+      "Greeting. Nobody came to the feed to be greeted."
+    ],
+    "score": 9.6,
+    "verdict": "WEAK"
+  },
+  {
+    "hook": "Steal this four line follow up it took me two years",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "11 words, 51 chars, ~4.0s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 100.0,
+        "detail": "2 concrete marker(s): four, two"
+      },
+      "STAKES": {
+        "score": 20.0,
+        "detail": "0 tension marker(s) - nothing is at stake in this line"
+      },
+      "FRONTLOAD": {
+        "score": 100.0,
+        "detail": "payload at word 3"
+      },
+      "ADDRESS": {
+        "score": 90.0,
+        "detail": "imperative opener (\"steal\")"
+      }
+    },
+    "weakest": "STAKES",
+    "flags": [],
+    "score": 57.2,
+    "verdict": "OK"
+  },
+  {
+    "hook": "Proposals used to take me five hours. Twenty minutes now.",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "10 words, 57 chars, ~3.6s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 100.0,
+        "detail": "3 concrete marker(s): Twenty, five, twenty"
+      },
+      "STAKES": {
+        "score": 20.0,
+        "detail": "0 tension marker(s) - nothing is at stake in this line"
+      },
+      "FRONTLOAD": {
+        "score": 70.0,
+        "detail": "payload at word 6, could move forward"
+      },
+      "ADDRESS": {
+        "score": 70.0,
+        "detail": "first person, no viewer named"
+      }
+    },
+    "weakest": "STAKES",
+    "flags": [],
+    "score": 51.2,
+    "verdict": "OK"
+  },
+  {
+    "hook": "If you sell furniture online, read this before your next shoot",
+    "checks": {
+      "LENGTH": {
+        "score": 88.0,
+        "detail": "11 words, 62 chars, ~4.0s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 15.0,
+        "detail": "0 concrete marker(s) - no number, no name, nothing checkable"
+      },
+      "STAKES": {
+        "score": 70.0,
+        "detail": "1 tension marker(s): before"
+      },
+      "FRONTLOAD": {
+        "score": 40.0,
+        "detail": "payload at word 8, too late"
+      },
+      "ADDRESS": {
+        "score": 100.0,
+        "detail": "speaks to the viewer"
+      }
+    },
+    "weakest": "SPECIFICITY",
+    "flags": [],
+    "score": 43.6,
+    "verdict": "WEAK"
+  },
+  {
+    "hook": "The biggest mistake people make with teak is sealing one side",
+    "checks": {
+      "LENGTH": {
+        "score": 88.0,
+        "detail": "11 words, 61 chars, ~4.0s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 15.0,
+        "detail": "0 concrete marker(s) - no number, no name, nothing checkable"
+      },
+      "STAKES": {
+        "score": 70.0,
+        "detail": "1 tension marker(s): mistake"
+      },
+      "FRONTLOAD": {
+        "score": 100.0,
+        "detail": "payload at word 3"
+      },
+      "ADDRESS": {
+        "score": 35.0,
+        "detail": "third person, nobody in the room"
+      }
+    },
+    "weakest": "SPECIFICITY",
+    "flags": [],
+    "score": 43.0,
+    "verdict": "WEAK"
+  },
+  {
+    "hook": "In this video I'm going to show you my morning routine #wood",
+    "checks": {
+      "LENGTH": {
+        "score": 100.0,
+        "detail": "12 words, 60 chars, ~4.4s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 15.0,
+        "detail": "0 concrete marker(s) - no number, no name, nothing checkable"
+      },
+      "STAKES": {
+        "score": 20.0,
+        "detail": "0 tension marker(s) - nothing is at stake in this line"
+      },
+      "FRONTLOAD": {
+        "score": 0.0,
+        "detail": "no payload word anywhere in the line; weak opener \"in this\""
+      },
+      "ADDRESS": {
+        "score": 100.0,
+        "detail": "speaks to the viewer"
+      }
+    },
+    "weakest": "FRONTLOAD",
+    "flags": [
+      "Video preamble. Delete it and open on the payoff.",
+      "Hashtag in the hook. Hashtags belong at the bottom of the caption, if anywhere."
+    ],
+    "score": 0.0,
+    "verdict": "WEAK"
+  },
+  {
+    "hook": "Why does every solid wood table crack in its first Mumbai monsoon?",
+    "checks": {
+      "LENGTH": {
+        "score": 88.0,
+        "detail": "12 words, 66 chars, ~4.4s spoken (want 5-12 words)"
+      },
+      "SPECIFICITY": {
+        "score": 75,
+        "detail": "1 concrete marker(s): Mumbai"
+      },
+      "STAKES": {
+        "score": 70.0,
+        "detail": "1 tension marker(s): first"
+      },
+      "FRONTLOAD": {
+        "score": 40.0,
+        "detail": "payload at word 10, too late"
+      },
+      "ADDRESS": {
+        "score": 35.0,
+        "detail": "third person, nobody in the room"
+      }
+    },
+    "weakest": "ADDRESS",
+    "flags": [],
+    "score": 51.0,
+    "verdict": "OK"
+  }
+]

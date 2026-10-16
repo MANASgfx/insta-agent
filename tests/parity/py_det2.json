@@ -1,0 +1,27 @@
+{
+  "source": "clean.txt",
+  "checks": {
+    "BURSTINESS": {
+      "score": 33.8,
+      "detail": "variation 0.38 across 12 sentences (want 0.55+)"
+    },
+    "SPECIFICITY": {
+      "score": 53.6,
+      "detail": "3 concrete markers, 3.4 per 100 words (want 4+)"
+    },
+    "SLOP DENSITY": {
+      "score": 100.0,
+      "detail": "0 stock terms, 0.0 per 100 words"
+    },
+    "FINGERPRINT": {
+      "score": 100.0,
+      "detail": "0 invisible, 0 em dash, 0 curly quote, 0 ellipsis, 0 hard space"
+    },
+    "VOICE": {
+      "score": 35.7,
+      "detail": "5.7 contractions, 1.1 personal pronouns per 100 words, 10 structural tell(s) [not-just, heres-what, triad, rocket]"
+    }
+  },
+  "human_score": 52.3,
+  "verdict": "REVIEW"
+}

@@ -1,0 +1,88 @@
+{
+  "baseline": "account median",
+  "n": 5,
+  "accounts": 5,
+  "reels": [
+    {
+      "account": "@c",
+      "followers": 9000,
+      "median": 3000,
+      "views": 180000,
+      "hook": "steal this four line follow up it took me two years",
+      "baseline": 3000,
+      "outlier": 60.0,
+      "formula_id": 9,
+      "formula": "The Steal",
+      "words": 11,
+      "hook_score": 57.2,
+      "hook_verdict": "OK"
+    },
+    {
+      "account": "@a",
+      "followers": 48000,
+      "median": 11000,
+      "views": 412000,
+      "hook": "nobody tells you that your first 30 reels are supposed to flop",
+      "baseline": 11000,
+      "outlier": 37.45,
+      "formula_id": 3,
+      "formula": "Nobody Tells You",
+      "words": 12,
+      "hook_score": 85.6,
+      "hook_verdict": "STRONG"
+    },
+    {
+      "account": "@e",
+      "followers": 5000,
+      "median": 1200,
+      "views": 2400,
+      "hook": "why does every teak table crack in the monsoon?",
+      "baseline": 1200,
+      "outlier": 2.0,
+      "formula_id": 16,
+      "formula": "The Verbatim Question",
+      "words": 9,
+      "hook_score": 30.0,
+      "hook_verdict": "WEAK"
+    },
+    {
+      "account": "@d",
+      "followers": 30000,
+      "median": null,
+      "views": 45000,
+      "hook": "I lost $18,000 on one missing clause",
+      "baseline": 30000,
+      "outlier": 1.5,
+      "formula_id": 1,
+      "formula": "Cost Confession",
+      "words": 8,
+      "hook_score": 81.4,
+      "hook_verdict": "STRONG"
+    },
+    {
+      "account": "@b",
+      "followers": 2000000,
+      "median": 900000,
+      "views": 1200000,
+      "hook": "in this video I am going to show you my morning routine",
+      "baseline": 900000,
+      "outlier": 1.33,
+      "formula_id": null,
+      "formula": "unclassified",
+      "words": 12,
+      "hook_score": 13.2,
+      "hook_verdict": "WEAK"
+    }
+  ],
+  "top_formulas": [
+    [
+      "The Steal",
+      1
+    ]
+  ],
+  "top_hook_score": 57.2,
+  "bottom_hook_score": 13.2,
+  "top_words": 11,
+  "bottom_words": 12,
+  "unclassified": 1
+}

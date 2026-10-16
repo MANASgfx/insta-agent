@@ -1,0 +1,123 @@
+{
+  "text": "Right now, it's important to use solid strategies, truly proof of innovation. Let's look at the clean overlap of content.\n\nIt's not just a reel, it's a movement. Here's what I learned: consistency, creativity, and community.! The result?\n🚀 Post daily\n✨ Engage often\n🎯 Track metrics\nAnd... #growth #reels #viral #fyp #instagram #content\nThis is a sentence of about eight words here. This is another sentence of about eight words here. This is yet another sentence of nearly eight words. And this one is also eight words long too.\n",
+  "report": {
+    "invisible": [],
+    "typographic": [
+      {
+        "name": "— EM DASH",
+        "count": 1,
+        "to": ","
+      },
+      {
+        "name": "’ RIGHT SINGLE QUOTE",
+        "count": 4,
+        "to": "'"
+      },
+      {
+        "name": "… HORIZONTAL ELLIPSIS",
+        "count": 1,
+        "to": "..."
+      }
+    ],
+    "lexical": [
+      {
+        "find": "in today's fast-paced world",
+        "replace": "right now",
+        "count": 1,
+        "family": "openers"
+      },
+      {
+        "find": "tag someone who needs this",
+        "replace": "(deleted)",
+        "count": 1,
+        "family": "closers"
+      },
+      {
+        "find": "follow for more",
+        "replace": "(deleted)",
+        "count": 1,
+        "family": "closers"
+      },
+      {
+        "find": "a testament to",
+        "replace": "proof of",
+        "count": 1,
+        "family": "nouns"
+      },
+      {
+        "find": "stop scrolling",
+        "replace": "(deleted)",
+        "count": 1,
+        "family": "openers"
+      },
+      {
+        "find": "delve into",
+        "replace": "look at",
+        "count": 1,
+        "family": "verbs"
+      },
+      {
+        "find": "leverage",
+        "replace": "use",
+        "count": 1,
+        "family": "verbs"
+      },
+      {
+        "find": "seamless",
+        "replace": "clean",
+        "count": 1,
+        "family": "adjectives"
+      },
+      {
+        "find": "crucial",
+        "replace": "important",
+        "count": 1,
+        "family": "adjectives"
+      },
+      {
+        "find": "synergy",
+        "replace": "overlap",
+        "count": 1,
+        "family": "nouns"
+      },
+      {
+        "find": "robust",
+        "replace": "solid",
+        "count": 1,
+        "family": "adjectives"
+      }
+    ],
+    "structures": [
+      {
+        "name": "\"It's not just X, it's Y\"",
+        "count": 1,
+        "fix": "Say the one thing you actually mean. Delete the setup half."
+      },
+      {
+        "name": "\"Here's what I learned\"",
+        "count": 1,
+        "fix": "State the lesson. Skip the announcement."
+      },
+      {
+        "name": "Rule-of-three triad",
+        "count": 1,
+        "fix": "Two items or four. Three is the model's default rhythm."
+      },
+      {
+        "name": "Rocket / fire / bulb / sparkle / dart emoji",
+        "count": 3,
+        "fix": "One emoji max, and not one of these five."
+      },
+      {
+        "name": "Hashtag wall (5+)",
+        "count": 1,
+        "fix": "Three hashtags. LinkedIn stopped rewarding the wall."
+      },
+      {
+        "name": "Emoji bullet list",
+        "count": 3,
+        "fix": "Use a hyphen or a line break. Emoji bullets are the single most template-looking thing in a caption."
+      }
+    ]
+  }
+}

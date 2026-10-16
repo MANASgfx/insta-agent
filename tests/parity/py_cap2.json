@@ -1,0 +1,70 @@
+{
+  "characters": 158,
+  "limit": 2200,
+  "truncate_at": 125,
+  "visible": "#viral Check this out!! 🔥🔥🔥✨🚀 Our new table www.wootique.com/shop is amazing. Follow for more and save this! DM me\n#fyp #expl",
+  "truncated": true,
+  "first_line_chars": 114,
+  "hashtags": [
+    "#viral",
+    "#fyp",
+    "#explore",
+    "#wood",
+    "#decor",
+    "#home",
+    "#furniture"
+  ],
+  "mentions": [],
+  "links": [
+    "www.wootique.com/shop"
+  ],
+  "emoji": 5,
+  "asks": [
+    "DM me",
+    "save this",
+    "follow"
+  ],
+  "checks": [
+    {
+      "check": "LENGTH",
+      "status": "PASS",
+      "detail": "158 / 2200 characters"
+    },
+    {
+      "check": "FIRST LINE",
+      "status": "FAIL",
+      "detail": "opens on a hashtag or a mention, which is the one position worth a sentence"
+    },
+    {
+      "check": "HOOK IS CONCRETE",
+      "status": "PASS",
+      "detail": "3 number(s) or name(s) in the visible window"
+    },
+    {
+      "check": "HASHTAGS",
+      "status": "FAIL",
+      "detail": "7 tags, over Instagram's cap of 5. Tags past the fifth do not count and the block reads as old"
+    },
+    {
+      "check": "TAG PLACEMENT",
+      "status": "WARN",
+      "detail": "a hashtag is inside the visible window, spending feed space on a label"
+    },
+    {
+      "check": "LINKS",
+      "status": "WARN",
+      "detail": "1 link(s) in the caption, and captions are not clickable. Move it to the bio or the DM"
+    },
+    {
+      "check": "ONE ASK",
+      "status": "WARN",
+      "detail": "3 asks (DM me, save this, follow). Two asks is the same as none"
+    },
+    {
+      "check": "EMOJI",
+      "status": "PASS",
+      "detail": "5 emoji, 3.2 per 100 characters"
+    }
+  ],
+  "verdict": "FIX"
+}

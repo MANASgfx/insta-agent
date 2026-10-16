@@ -1,0 +1,65 @@
+{
+  "wpm": 165,
+  "target": 30.0,
+  "total_seconds": 25.09,
+  "total_words": 69,
+  "beats": [
+    {
+      "n": 1,
+      "start": 0.0,
+      "dur": 2.91,
+      "words": 8,
+      "text": "I lost $18,000 because of one missing contract.",
+      "concrete": 2,
+      "label": "HOOK",
+      "flags": []
+    },
+    {
+      "n": 2,
+      "start": 2.91,
+      "dur": 13.09,
+      "words": 36,
+      "text": "Here is the exact clause I now put in every single contract I send, and honestly it has changed the way that I think about getting paid for the work that I do every single month.",
+      "concrete": 0,
+      "label": "MID",
+      "flags": [
+        "13.1s on one beat"
+      ]
+    },
+    {
+      "n": 3,
+      "start": 16.0,
+      "dur": 2.91,
+      "words": 8,
+      "text": "Section 4. Payment on delivery, not on approval.",
+      "concrete": 2,
+      "label": "",
+      "flags": []
+    },
+    {
+      "n": 4,
+      "start": 18.91,
+      "dur": 2.91,
+      "words": 8,
+      "text": "Approval is a feeling. Delivery is a date.",
+      "concrete": 1,
+      "label": "",
+      "flags": []
+    },
+    {
+      "n": 5,
+      "start": 21.82,
+      "dur": 3.27,
+      "words": 9,
+      "text": "That one word change is worth $18,000 to me.",
+      "concrete": 2,
+      "label": "CTA",
+      "flags": []
+    }
+  ],
+  "notes": [
+    "Beat(s) 2 run past 4s. Either split the line or change what is on screen inside it. A static frame is where people leave.",
+    "Loops: the last beat repeats \"$18,000\" from the hook. Second watches are free reach.",
+    "4.9s under target. Either add 13 words or shoot it short. Short is usually right."
+  ]
+}
